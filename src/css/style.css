@@ -1,0 +1,188 @@
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-size: 1.8rem;
+     font-weight: 500;
+     font-family: var(--text-padrao);
+}
+
+
+.wrapper {
+     max-width: 1440px;
+     min-width: 320px;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.wrapper .card-result {
+     background-color: var(--bg-Light-royal);
+     max-width: 370px;
+     height: 500px;
+     border-radius: 25px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+     position: relative;
+     left: 10px;
+}
+
+.wrapper .card-result .title-result {
+     font-size: 2.5rem;
+     font-weight: 700;
+     color: var(--neutral-text-Light);
+}
+
+.wrapper .card-result .result {
+     width: 180px;
+     height: 180px;
+     background-color: var(--bg-circle-result);
+     box-shadow: 0 0 30px #f7f7f7;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.wrapper .card-result .result .number {
+     color: var(--neutral-text-White);
+     font-size: 7rem;
+     font-weight: 800;
+}
+
+.wrapper .card-result .result>p {
+     color: var(--bg-Light-slate);
+}
+
+.wrapper .card-result .info {
+     color: var(--neutral-text-White);
+}
+
+.wrapper .card-result .info h1 {
+     font-size: 3.2rem;
+     font-weight: 800;
+     margin-bottom: 2rem;
+}
+
+/* 
+CARD SUMMARY  */
+
+.wrapper .card-summary {
+     width: 370px;
+     height: 500px;
+     background-color: var(--neutral-text-Pale);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     border-radius: 0 25PX 25PX 0;
+     padding: 2rem 3rem;
+}
+
+.wrapper .card-summary .title-summary {
+     font-weight: 700;
+     font-size: 2.5rem;
+}
+
+.wrapper .card-summary .info {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1.5rem;
+     margin-bottom: 2rem;
+     border-radius: 10px;
+
+}
+
+
+.wrapper .card-summary .reaction {
+     background-color: rgba(255, 0, 0, 0.1);
+     color: var(--primary-reaction);
+     display: flex;
+}
+
+.wrapper .card-summary .reaction .item-reaction::before {
+     content: "";
+     background: url(../images/icon-reaction.svg) center center no-repeat;
+     width: 20px;
+     height: 18px;
+     display: inline-block;
+     margin-right: 8px;
+}
+
+
+.wrapper .card-summary .memory {
+     background-color: rgba(206, 222, 117, 0.208);
+     color: var(--primary-memory);
+     display: flex;
+}
+
+.wrapper .card-summary .memory .item-memory::before {
+     content: "";
+     background: url('../images/icon-memory.svg') center center no-repeat;
+     width: 20px;
+     height: 18px;
+     display: inline-block;
+     margin-right: 8px;
+}
+
+
+.wrapper .card-summary .verbal {
+     background-color: rgba(100, 245, 124, 0.208);
+     color: var(--primary-verbal);
+     display: flex;
+}
+
+.wrapper .card-summary .verbal .item-verbal::before {
+     content: "";
+     background: url('../images/icon-verbal.svg') center center no-repeat;
+     width: 20px;
+     height: 18px;
+     display: inline-block;
+     margin-right: 8px;
+}
+
+
+.wrapper .card-summary .visual {
+     background-color: rgba(110, 100, 245, 0.208);
+     color: var(--primary-visual);
+     display: flex;
+
+}
+
+.wrapper .card-summary .visual .item-visual::before {
+     content: "";
+     background: url('../images/icon-visual.svg') center center no-repeat;
+     width: 20px;
+     height: 18px;
+     display: inline-block;
+     margin-right: 8px;
+}
+
+.wrapper .card-summary .info>p {
+     color: hsl(224, 25%, 43%);
+}
+
+
+.wrapper .card-summary .botao {
+     text-align: center;
+}
+
+.wrapper .card-summary .botao .btn {
+     font-weight: 800;
+     font-size: 2rem;
+     padding: 1rem 7rem;
+     border-radius: 30px;
+     background-color: hsl(224, 30%, 27%);
+     color: var(--neutral-text-White);
+     transition: 0.3s;
+}
+
+.wrapper .card-summary .botao .btn:hover {
+     background-color: var(--primary-visual);
+}

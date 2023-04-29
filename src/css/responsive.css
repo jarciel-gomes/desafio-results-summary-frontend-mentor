@@ -1,0 +1,47 @@
+@media(max-width: 768px) {
+
+     /* CARD RESULT */
+
+     .wrapper {
+          display: block;
+     }
+
+     .wrapper .card-result {
+          max-width: 100%;
+          border-radius: 0 0 30px 30px;
+          height: 50vh;
+          left: 0;
+     }
+
+     .wrapper .card-result .info > p {
+          max-width: 300px;
+          margin-bottom: 1rem;
+     }
+
+     /* CARD SUMMMARY  */
+
+     .wrapper .card-summary {
+          width: 100%;
+     }
+
+    
+}
+
+@media(max-width: 425px) {
+     html {
+          font-size: 55%;
+     }
+
+     .wrapper .card-result {
+          height: 45vh;
+     }
+
+     .wrapper .card-result .result {
+          width: 150px;
+          height: 150px;
+     }
+     .wrapper .card-summary .info {
+          margin-bottom: 2rem;
+     }
+
+}

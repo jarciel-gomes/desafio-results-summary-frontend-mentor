@@ -1,0 +1,18 @@
+:root {
+     --primary-reaction: hsl(0, 100%, 67%);
+     --primary-memory:hsl(39, 100%, 56%);
+     --primary-verbal: hsl(166, 100%, 37%);
+     --primary-visual: hsl(234, 85%, 45%);
+
+     --bg-circle-result: hsla(256, 72%, 46%, 1);
+     --bg-Persian-circle: hsla(241, 72%, 46%, 0);
+     --bg-Light-royal: hsl(241, 81%, 54%);
+     --bg-Light-slate: hsl(252, 100%, 67%);
+
+     --neutral-text-White: hsl(0, 0%, 100%);
+     --neutral-text-Pale: hsl(221, 100%, 96%);
+     --neutral-text-Light: hsl(241, 100%, 89%);
+     --neutral-Dark: hsl(224, 30%, 27%);
+
+     --text-padrao: 'Hanken Grotesk', sans-serif;
+}
